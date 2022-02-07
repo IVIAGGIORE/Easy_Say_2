@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/nav_connect"
+        android:icon="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:title="Подключить"/>
+
+    <item android:id="@+id/nav_project"
+        android:icon="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:title="О проекте"/>
+
+    <item android:id="@+id/nav_calibration"
+        android:icon="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:title="Калибровка"/>
+
+    <item android:id="@+id/nav_recognition"
+        android:icon="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:title="Распознавание жестов"/>
+
+    <item android:id="@+id/nav_education"
+        android:icon="@drawable/ic_baseline_school_24"
+        android:title="Обучение"/>
+
+    <item android:id="@+id/nav_reference"
+        android:icon="@drawable/ic_baseline_help_outline_24"
+        android:title="Справка"/>
+    </group>
+</menu>

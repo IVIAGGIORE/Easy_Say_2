@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentEducation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ОБУЧЕНИЕ"
+        android:textAlignment="center"
+        android:textColor="#350E71"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewPositionHendCalibr"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Введите букву"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/tbInputCharEdu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btnImagePositionHendCalibr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.298" />
+
+
+    <android.widget.Button
+        android:id="@+id/btnImagePositionHendEdu"
+        android:layout_width="match_parent"
+        android:background="@drawable/custom_button1"
+        android:layout_height="wrap_content"
+        android:text="ФОТО ЖЕСТА" />
+    <ImageView
+        android:id="@+id/imageViewPositionHendEdu"
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <android.widget.Button
+        android:id="@+id/btnStartEdu"
+        android:layout_width="match_parent"
+        android:background="@drawable/custom_button1"
+        android:layout_height="wrap_content"
+        android:text="Начать обучение" />
+
+    <ImageView
+        android:id="@+id/imageViewResultEdu"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <android.widget.Button
+        android:id="@+id/btnStopEdu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button1"
+        android:enabled="false"
+        android:text="Окончить обучение" />
+
+
+</LinearLayout>
